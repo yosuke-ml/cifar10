@@ -1,0 +1,61 @@
+(tf) D:\work\python\TensorFlow\Cifar10>python cifar10_cnn_plot.py
+Using TensorFlow backend.
+C:\Users\yosuk\Anaconda3\envs\tf\lib\site-packages\matplotlib\cbook\__init__.py:424: MatplotlibDeprecationWarning:
+Passing one of 'on', 'true', 'off', 'false' as a boolean is deprecated; use an actual boolean (True/False) instead.
+  warn_deprecated("2.2", "Passing one of 'on', 'true', 'off', 'false' as a "
+C:\Users\yosuk\Anaconda3\envs\tf\lib\site-packages\matplotlib\text.py:1191: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if s != self._text:
+Train on 41250 samples, validate on 8750 samples
+Epoch 1/20
+2019-03-23 22:56:06.270271: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2019-03-23 22:56:07.139799: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties:
+name: GeForce GTX 1050 major: 6 minor: 1 memoryClockRate(GHz): 1.493
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.30GiB
+2019-03-23 22:56:07.147215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-03-23 22:56:07.615036: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-03-23 22:56:07.618969: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2019-03-23 22:56:07.621422: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2019-03-23 22:56:07.624622: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3015 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1)
+41250/41250 [==============================] - 17s 416us/step - loss: 1.8193 - acc: 0.3288 - val_loss: 1.8105 - val_acc: 0.3674
+Epoch 2/20
+41250/41250 [==============================] - 14s 341us/step - loss: 1.5288 - acc: 0.4423 - val_loss: 1.4586 - val_acc: 0.4715
+Epoch 3/20
+41250/41250 [==============================] - 14s 341us/step - loss: 1.3894 - acc: 0.5006 - val_loss: 1.3375 - val_acc: 0.5257
+Epoch 4/20
+41250/41250 [==============================] - 14s 340us/step - loss: 1.2942 - acc: 0.5356 - val_loss: 1.2000 - val_acc: 0.5762
+Epoch 5/20
+41250/41250 [==============================] - 14s 341us/step - loss: 1.2229 - acc: 0.5650 - val_loss: 1.1756 - val_acc: 0.5931
+Epoch 6/20
+41250/41250 [==============================] - 14s 342us/step - loss: 1.1579 - acc: 0.5919 - val_loss: 1.2261 - val_acc: 0.5755
+Epoch 7/20
+41250/41250 [==============================] - 14s 342us/step - loss: 1.1040 - acc: 0.6135 - val_loss: 1.0905 - val_acc: 0.6195
+Epoch 8/20
+41250/41250 [==============================] - 14s 340us/step - loss: 1.0543 - acc: 0.6290 - val_loss: 1.2136 - val_acc: 0.5825
+Epoch 9/20
+41250/41250 [==============================] - 14s 341us/step - loss: 1.0112 - acc: 0.6446 - val_loss: 1.0507 - val_acc: 0.6391
+Epoch 10/20
+41250/41250 [==============================] - 14s 342us/step - loss: 0.9766 - acc: 0.6577 - val_loss: 1.0002 - val_acc: 0.6544
+Epoch 11/20
+41250/41250 [==============================] - 14s 342us/step - loss: 0.9443 - acc: 0.6710 - val_loss: 0.9142 - val_acc: 0.6854
+Epoch 12/20
+41250/41250 [==============================] - 14s 342us/step - loss: 0.9114 - acc: 0.6807 - val_loss: 0.8747 - val_acc: 0.6934
+Epoch 13/20
+41250/41250 [==============================] - 14s 342us/step - loss: 0.8862 - acc: 0.6907 - val_loss: 0.9682 - val_acc: 0.6714
+Epoch 14/20
+41250/41250 [==============================] - 14s 341us/step - loss: 0.8625 - acc: 0.6978 - val_loss: 0.8703 - val_acc: 0.6965
+Epoch 15/20
+41250/41250 [==============================] - 14s 340us/step - loss: 0.8433 - acc: 0.7063 - val_loss: 0.8385 - val_acc: 0.7087
+Epoch 16/20
+41250/41250 [==============================] - 14s 341us/step - loss: 0.8285 - acc: 0.7129 - val_loss: 0.8239 - val_acc: 0.7139
+Epoch 17/20
+41250/41250 [==============================] - 14s 342us/step - loss: 0.8093 - acc: 0.7189 - val_loss: 0.8084 - val_acc: 0.7168
+Epoch 18/20
+41250/41250 [==============================] - 14s 341us/step - loss: 0.7941 - acc: 0.7268 - val_loss: 0.8065 - val_acc: 0.7201
+Epoch 19/20
+41250/41250 [==============================] - 14s 343us/step - loss: 0.7800 - acc: 0.7275 - val_loss: 0.8380 - val_acc: 0.7130
+Epoch 20/20
+41250/41250 [==============================] - 14s 341us/step - loss: 0.7672 - acc: 0.7349 - val_loss: 0.9043 - val_acc: 0.6970
+10000/10000 [==============================] - 1s 119us/step
+Test Loss:  0.9077257303237916
+Test Accuracy:  0.692

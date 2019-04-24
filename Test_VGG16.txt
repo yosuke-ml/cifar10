@@ -1,0 +1,50 @@
+(tf) D:\work\python\TensorFlow\Cifar10>python predict_cifar10_VGG16.py
+Using TensorFlow backend.
+2019-03-24 02:26:48.797692: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2019-03-24 02:26:49.654496: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties:
+name: GeForce GTX 1050 major: 6 minor: 1 memoryClockRate(GHz): 1.493
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.30GiB
+2019-03-24 02:26:49.661527: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-03-24 02:26:50.130917: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-03-24 02:26:50.134756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2019-03-24 02:26:50.138276: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2019-03-24 02:26:50.141276: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3015 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1)
+./test_img/airplane1.jpg
+airplane (99 %)
+./test_img/automobile1.jpg
+automobile (99 %)
+./test_img/automobile2.jpg
+automobile (35 %)
+./test_img/bird1.jpg
+bird (99 %)
+./test_img/cat1.jpg
+cat (79 %)
+./test_img/cat2.jpg
+dog (37 %)
+./test_img/cat3.jpg
+bird (99 %)
+./test_img/deer1.jpg
+deer (92 %)
+./test_img/dog1.jpg
+dog (99 %)
+./test_img/frog1.jpg
+frog (97 %)
+./test_img/frog2.jpg
+bird (92 %)
+./test_img/horse1.jpg
+horse (47 %)
+./test_img/horse2.jpg
+horse (99 %)
+./test_img/ship1.jpg
+ship (82 %)
+./test_img/ship2.jpg
+ship (99 %)
+./test_img/ship3.jpg
+ship (99 %)
+./test_img/truck1.jpg
+truck (99 %)
+./test_img/truck2.jpg
+truck (99 %)
+======================================
+Accracy Rate: 83%

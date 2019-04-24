@@ -1,0 +1,59 @@
+(tf) D:\work\python\TensorFlow\Cifar10>python cifar10_cnn_FineTuned_VGG16.py
+Using TensorFlow backend.
+C:\Users\yosuk\Anaconda3\envs\tf\lib\site-packages\matplotlib\text.py:1191: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if s != self._text:
+2019-03-24 02:06:24.346600: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2019-03-24 02:06:25.200509: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties:
+name: GeForce GTX 1050 major: 6 minor: 1 memoryClockRate(GHz): 1.493
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.30GiB
+2019-03-24 02:06:25.207112: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-03-24 02:06:25.673612: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-03-24 02:06:25.676611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2019-03-24 02:06:25.678481: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2019-03-24 02:06:25.680480: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3015 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch 1/20
+1289/1289 [==============================] - 57s 44ms/step - loss: 1.3585 - acc: 0.5239 - val_loss: 1.0151 - val_acc: 0.6433
+Epoch 2/20
+1289/1289 [==============================] - 55s 43ms/step - loss: 1.0536 - acc: 0.6378 - val_loss: 0.9281 - val_acc: 0.6763
+Epoch 3/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.9622 - acc: 0.6698 - val_loss: 0.8319 - val_acc: 0.7058
+Epoch 4/20
+1289/1289 [==============================] - 55s 43ms/step - loss: 0.9030 - acc: 0.6862 - val_loss: 0.8367 - val_acc: 0.7000
+Epoch 5/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.8558 - acc: 0.7051 - val_loss: 0.8136 - val_acc: 0.7111
+Epoch 6/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.8217 - acc: 0.7166 - val_loss: 0.8003 - val_acc: 0.7162
+Epoch 7/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.7927 - acc: 0.7256 - val_loss: 0.7407 - val_acc: 0.7361
+Epoch 8/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.7617 - acc: 0.7346 - val_loss: 0.7801 - val_acc: 0.7266
+Epoch 9/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.7377 - acc: 0.7421 - val_loss: 0.7402 - val_acc: 0.7399
+Epoch 10/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.7186 - acc: 0.7504 - val_loss: 0.7522 - val_acc: 0.7397
+Epoch 11/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.6945 - acc: 0.7578 - val_loss: 0.7771 - val_acc: 0.7313
+Epoch 12/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.6728 - acc: 0.7641 - val_loss: 0.7257 - val_acc: 0.7432
+Epoch 13/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.6489 - acc: 0.7720 - val_loss: 0.6924 - val_acc: 0.7565
+Epoch 14/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.6290 - acc: 0.7790 - val_loss: 0.6880 - val_acc: 0.7599
+Epoch 15/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.6122 - acc: 0.7863 - val_loss: 0.7465 - val_acc: 0.7457
+Epoch 16/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.5949 - acc: 0.7924 - val_loss: 0.7304 - val_acc: 0.7488
+Epoch 17/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.5815 - acc: 0.7962 - val_loss: 0.7029 - val_acc: 0.7581
+
+Epoch 00017: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 18/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.4736 - acc: 0.8360 - val_loss: 0.6824 - val_acc: 0.7703
+Epoch 19/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.4471 - acc: 0.8457 - val_loss: 0.6843 - val_acc: 0.7717
+Epoch 20/20
+1289/1289 [==============================] - 56s 43ms/step - loss: 0.4372 - acc: 0.8466 - val_loss: 0.7019 - val_acc: 0.7667
+10000/10000 [==============================] - 6s 618us/step
+Test Loss:  0.7221970440864564
+Test Accuracy:  0.7685

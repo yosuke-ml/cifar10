@@ -1,0 +1,38 @@
+./test_img/airplane1.jpg
+airplane (99 %)
+./test_img/automobile1.jpg
+automobile (93 %)
+./test_img/automobile2.jpg
+frog (99 %)
+./test_img/bird1.jpg
+bird (66 %)
+./test_img/cat1.jpg
+truck (64 %)
+./test_img/cat2.jpg
+cat (56 %)
+./test_img/cat3.jpg
+bird (79 %)
+./test_img/deer1.jpg
+deer (98 %)
+./test_img/dog1.jpg
+dog (84 %)
+./test_img/frog1.jpg
+frog (97 %)
+./test_img/frog2.jpg
+bird (64 %)
+./test_img/horse1.jpg
+frog (50 %)
+./test_img/horse2.jpg
+frog (98 %)
+./test_img/ship1.jpg
+frog (84 %)
+./test_img/ship2.jpg
+ship (99 %)
+./test_img/ship3.jpg
+ship (92 %)
+./test_img/truck1.jpg
+truck (99 %)
+./test_img/truck2.jpg
+truck (99 %)
+======================================
+Accracy Rate: 61%
